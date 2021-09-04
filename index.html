@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>Tosam online services</title>
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/tosams.css">
+
+    <link rel="stylesheet" href="assets/css/owl-carousel.css">
+
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+      
+      <link rel="icon" href="assets/images/icon.png">
+      <!----animate css--->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> 
+      
+      <link rel="stylesheet" href="assets/css/themify-icons.css">
+      
+
+    </head>
+    <style>
+     /*---------------------------------------
+     HERO              
+  -----------------------------------------*/
+
+  .hero {
+    position: relative;
+    padding: 5em 0;
+    overflow: hidden;
+  }
+
+  .hero-bg {
+    background: linear-gradient(170deg, #061948 64%, white 30%);
+  }
+
+  .hero-image {
+    position: relative;
+    top: 2px;
+  }
+
+
+        
+          /* BUTTON */
+  .custom-btn {
+    background: transparent;
+    border: 2px solid var(--dark-color);
+    border-radius: var(--border-radius-large);
+    padding: 12px 26px 14px 26px;
+    color: var(--dark-color);
+    font-family: var(--title-font-family);
+    font-size: var(--p-font-size);
+    white-space: nowrap;
+  }
+
+  .custom-btn.btn-bg {
+    background: var(--white-color);
+    color: var(--primary-color);
+    border-color: transparent;
+	transition: all .3s ease;
+  }
+  
+  .custom-btn:hover,
+  .custom-btn:focus {
+    background: dodgerblue;
+    color: var(--white-color);
+    border-color: transparent;
+  }
+        
+         :root {
+    --primary-color:         #4c00e6;
+    --secondary-color:      #f1c111;
+    --white-color:          #ffffff;
+    --dark-color:           #171819;
+    --project-bg:           #f0f8ff;
+    --menu-bg:               #661aff;
+
+    --title-color:          #15141a;
+    --gray-color:           #909090;
+    --link-color:           #404040;
+    --p-color:              #666262;
+
+    --base-font-family:     'Plain-Light', sans-serif;
+    --title-font-family:    'Plain-Regular', sans-serif;
+    --font-bold-family:     'Plain-Bold', sans-serif;
+    --font-weight-bold:     bold;
+
+    --h1-font-size:         42px;
+    --h2-font-size:         32px;
+    --h3-font-size:         24px;
+    --p-font-size:          18px;
+    --base-font-size:       16px;
+    --menu-font-size:       14px;
+
+    --border-radius-large:  100px;
+    --border-radius-small:  5px;
+  }
+    
+        
+        
+          
+    .team-member-img {
+  transition-duration: 0.15s;
+}
+.team-member:hover .team-member-img {
+  padding: 10px !important;
+}
+    
+    .typo-space-line::after,
+.typo-space-line-center::after {
+  content: "";
+  width: 150px;
+  display:block;
+  position: absolute;
+  border-bottom:  5px solid #6266ea;
+  padding-top: .5em;
+}
+.typo-space-line-center::after {
+  left: 50%;
+  margin-left: -75px;
+}
+        
+        
+        .service-item {
+  padding: 60px 40px;
+  border: 2px solid #f6f5ff;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+  transition: all .45s ease;
+}
+
+.service-item h4, .service-item i, .service-item p {
+  transition: all .45s ease;
+}
+
+.service-item i {
+  font-size: 50px;
+  color: dodgerblue;
+}
+
+.service-item p {
+  margin-bottom: 50px;
+}
+
+.service-item:before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  background: dodgerblue;
+  width: 100%;
+  height: 70%;
+  opacity: 0;
+  z-index: -1;
+  transition: all .45s ease;
+}
+
+.service-item:hover:before {
+  opacity: 1;
+  height: 100%;
+}
+
+.service-item:hover h4 {
+  color: #fff;
+}
+
+.service-item:hover p {
+  color: #fff;
+}
+
+.service-item:hover .read-more {
+  color: #fff;
+}
+
+.service-item:hover i {
+  color: #fff;
+}
+
+.service-item .read-more {
+  color: #6e7797;
+}
+
+.read-more {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  transition: all .45s ease;
+}
+
+.read-more i {
+  font-size: 14px;
+  margin-left: 5px;
+  transition: all .45s ease;
+}
+
+.read-more:hover i {
+  margin-left: 8px;
+}
+
+.intro-img {
+  position: relative;
+}
+
+
+.service-details {
+  padding-right: 20px;
+}
+
+.service-list ul li {
+  color: #0c111a;
+  line-height: 35px;
+}
+
+.service-list ul li i {
+  margin-right: 10px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+  .cta-wrap {
+  padding: 60px;
+  margin-top: -90px;
+  background: #fff;
+  position: relative;
+  border-radius: 5px;
+}
+
+.cta-wrap:before {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: url("assets/images/4.png") no-repeat;
+  background-size: cover;
+  opacity: .5;
+}
+   
+        
+           .btn-solid-reg {
+	display: inline-block;
+	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
+	border: 1px solid #0092ff;
+	border-radius: 30px;
+	background-color: #0092ff;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 0.875rem;
+	line-height: 0;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.btn-solid-reg:hover {
+	background-color: transparent;
+	color: #0092ff; /* needs to stay here because of the color property of a tag */
+	text-decoration: none;
+}
+
+        
+        .ti-layout-cta-right:before {
+	content: "\e70b";
+}
+.ti-layout-cta-left:before {
+	content: "\e70c";
+}
+.ti-layout-cta-center:before {
+	content: "\e70d";
+}
+.ti-layout-cta-btn-right:before {
+	content: "\e70e";
+}
+.ti-layout-cta-btn-left:before {
+	content: "\e70f";
+}
+        
+        
+        /*********************/
+/*     Details 1     */
+/*********************/
+.basic-1 {
+	padding-top: 2.25rem;
+	padding-bottom: 4.75rem;
+	background: linear-gradient(#cce6ff, #cce6ff);
+}
+
+.basic-1 .image-container {
+	margin-bottom: 4rem;
+}
+
+.basic-1 h2 {
+	margin-bottom: 1.75rem;
+}
+
+.basic-1 p {
+	margin-bottom: 2rem;
+}
+
+    </style>
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/logo.png" style="width: 80px">
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#projects">Services</a></li>
+                            <li class="scroll-to-section"><a href="#about">About</a></li>
+                            <li class="submenu">
+                                <a href="javascript:;">Projects</a>
+                                <ul>
+                                    <li><a href="">About Us</a></li>
+                                    <li><a href="">Features</a></li>
+                                    <li><a href="">FAQ's</a></li>
+                                    <li><a href="">Blog</a></li>
+                                </ul>
+                            </li>
+                            <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li> 
+                            <div class="search-icon">
+                                <a href="#search"><i class="fa fa-search"></i></a>
+                            </div>
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+    
+    <!-- ***** Search Area ***** -->
+    <div id="search">
+        <button type="button" class="close">×</button>
+        <form id="contact" action="#" method="get">
+            <fieldset>
+                <input type="search" name="q" placeholder="SEARCH KEYWORD(s)" aria-label="Search through site content">
+            </fieldset>
+            <fieldset>
+                <button type="submit" class="main-button">Search</button>
+            </fieldset>
+        </form>
+    </div>
+    
+     <!-- HERO -->
+     <section class="hero hero-bg d-flex justify-content-center align-items-center">
+               <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-md-10 col-12 d-flex flex-column justify-content-center align-items-center">
+                              <div class="hero-text">
+
+                                   <h1 class="text-white animated bounceInRight" style="animation-delay: 1s">Welcome to Tosam online services!. </h1>
+
+                                   <a href="contact.html" class="custom-btn btn-bg btn mt-3 animated bounceInLeft" style="animation-delay: 1s" >Contact Tosam for projects</a>
+
+                                   <strong class="d-block py-3 pl-5 text-white animated bounceInRight" style="animation-delay: 1s" ><i class="fa fa-phone mr-2"></i> +2349133503679</strong>
+                              </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                          <div class="hero-image animated bounceInRight" style="animation-delay: 1s">
+
+                            <img src="assets/images/banner-img-02.svg" class="img-fluid" alt="working girl">
+                          </div>
+                        </div>
+
+                    </div>
+               </div>
+     </section>
+
+        
+      
+     <!-- ***** Features Big Item Start ***** -->
+    <section class="section" id="features">
+        <div class="container" data-aos="fade-right">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="assets/images/features-icon-1.png" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Initial Work</h4>
+                            <p>Proin euismod sem ut diam ultricies, ut faucibus velit ultricies. Nam eu turpis quam. Duis ac condimentum eros.</p>
+                            <a href="#" class="text-button-icon">
+                                Learn More <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="assets/images/features-icon-1.png" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Master Planning</h4>
+                            <p>Proin euismod sem ut diam ultricies, ut faucibus velit ultricies. Nam eu turpis quam. Duis ac condimentum eros.</p>
+                            <a href="#" class="text-button-icon">
+                                Learn More <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="assets/images/features-icon-1.png" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Smooth Execution</h4>
+                            <p>Proin euismod sem ut diam ultricies, ut faucibus velit ultricies. Nam eu turpis quam. Duis ac condimentum eros.</p>
+                            <a href="#" class="text-button-icon">
+                                Learn More <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+    
+        <section class="section secondary-bg" id="services">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-6">
+				<div class="section-title text-center">
+					<h2 class="mb-4 text-lg" style=" font-weight: bold; font-size: 50px;">My services.</h2>
+					<p>Omnis est dolores commodi ullam tempora sequi asperiores ipsum autem ex aliquam. Voluptatibus unde</p>
+				</div>
+			</div>
+		</div>
+		<div class="row no-gutters">
+			<div class="col-lg-4 col-md-6">
+				<div class="service-item">
+					<div class="d-flex align-items-center mb-4">
+						<i class="ti-microphone mr-3"></i>
+						<h4>Branding</h4>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed.</p>
+
+					<a href="service-single.html" class="read-more">Learn More <i class="fa fa-angle-right"></i></a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="service-item">
+					<div class="d-flex align-items-center mb-4">
+						<i class="ti-html5 mr-3"></i>
+						<h4>Web Development</h4>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed.</p>
+
+					<a href="service-single.html" class="read-more">Learn More <i class="fa fa-angle-right"></i></a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="service-item">
+					<div class="d-flex align-items-center mb-4">
+						<i class="ti-video-camera mr-3"></i>
+						<h4>Digital Marketing</h4>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed.</p>
+
+					<a href="service-single.html" class="read-more">Learn More <i class="fa fa-angle-right"></i></a>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6">
+				<div class="service-item">
+					<div class="d-flex align-items-center mb-4">
+						<i class="ti-desktop mr-3"></i>
+						<h4>Web Design</h4>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed.</p>
+
+					<a href="service-single.html" class="read-more">Learn More <i class="fa fa-angle-right"></i></a>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6">
+				<div class="service-item">
+					<div class="d-flex align-items-center mb-4">
+						<i class="ti-layers mr-3"></i>
+						<h4>Graphics Design</h4>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed.</p>
+
+					<a href="service-single.html" class="read-more">Learn More <i class="fa fa-angle-right"></i></a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="service-item">
+					<div class="d-flex align-items-center mb-4">
+						<i class="ti-wordpress mr-3"></i>
+						<h4>WordPress</h4>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed.</p>
+
+					<a href="service-single.html" class="read-more">Learn More <i class="fa fa-angle-right"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>  
+         
+        
+      
+        
+        
+        <!-- Details 1 -->
+    <div id="details" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-7">
+                    <div class="image-container">
+                        <img class="img-fluid" src="assets/images/details-1.png" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6 col-xl-5">
+                    <div class="text-container">
+                        <div class="section-title" style="color: darkblue">WHAT WE DO</div><br>
+                        <h2>The right Person can make it happen</h2>
+                        <p>Etiam tempus condimentum congue. In sit amet nisi eget massa condimentum lobortis eget ac eros. In hac habitasse platea dictumst. Aenean molestie mauris eget sapien sagittis, a bibendum magna tincidunt</p>
+                        <a class="btn-solid-reg" href="#contact">Read more</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of details 1 -->    
+        
+        
+        
+        
+<section class="cta">
+	<div class="container">
+		<div class="cta-wrap box-shadow">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-lg-8">
+					<div class="cta-content">
+						<span class="text-color" style="color: dodgerblue">All in one Solution</span>
+                          <div class="section-heading">
+                        <h2>Have any Project on mind?</h2>
+                        </div>
+					</div>
+				</div>
+				<div class="col-lg-3 ">
+					<div class="text-lg-right mt-5 mt-lg-0">
+						<a href="#contact-us" class="btn-solid-reg smoth-scroll">Contact me<i class="fa fa-angle-right ml-2"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>  
+           
+        
+        
+    
+    
+     <!-- Start Team Member -->
+    <section class="container py-5">
+        <div class="pt-5 pb-3 d-lg-flex align-items-center gx-5">
+
+            <div class="col-lg-3"  data-aos="fade-up">
+                <h2 class="h2 py-5 typo-space-line">Our Team</h2>
+                <p class="text-muted light-300">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div class="col-lg-9 row"  data-aos="fade-right">
+                <div class="team-member col-md-4" >
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="assets/images/tosam.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>Tosam Amos</li>
+                        <li>Founder</li>
+                    </ul>
+                </div>
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="assets/images/team-03.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>Jane Doe</li>
+                        <li>Media Development</li>
+                    </ul>
+                </div>
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="assets/images/member-item-02.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>Sam</li>
+                        <li>Developer</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Team Member -->
+    
+    
+
+   
+   
+    
+    <!-- ***** Contact Us Area Starts ***** -->
+    <section class="section" id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="section-heading">
+                            <h6>Contact Us</h6>
+                            <h2>Feel free to keep in touch with us!</h2>
+                        </div>
+                        <ul class="contact-info">
+                            <li><img src="assets/images/contact-info-01.png" alt="">010-020-0860</li>
+                            <li><img src="assets/images/contact-info-02.png" alt="">info@company.com</li>
+                            <li><img src="assets/images/contact-info-03.png" alt="">www.company.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-xs-12">
+                    <div class="contact-form">
+                        <form id="contact" action="" method="get">
+                          <div class="row">
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="name" type="text" id="name" placeholder="Your Name *" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="phone" type="text" id="phone" placeholder="Your Phone" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="email" type="email" id="email" placeholder="Your Email *" required="">
+                              </fieldset>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                              <fieldset>
+                                <input name="subject" type="text" id="subject" placeholder="project type">
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <button type="submit" id="form-submit" class="main-button-icon">Send Message Now <i class="fa fa-arrow-right"></i></button>
+                              </fieldset>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Contact Us Area Ends ***** -->
+    
+    <!-- Start Footer -->
+    <footer class=" pt-4">
+        <div class="container">
+            <div class="row py-4">
+
+                <div class="col-lg-3 col-12 align-left">
+                    <a class="navbar-brand" href="index.html">
+                        <i class='bx bx-buildings bx-sm text-light'></i>
+                        <span class="text-light h5"><a><img src="assets/images/logo.png" style="width:120px;">
+                            </a></span></a>
+                    <p class="text-light my-lg-4 my-2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut.
+                    </p>
+                    <ul class="list-inline footer-icons light-300">
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="/">
+                                <i class='bx bxl-facebook-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="">
+                                <i class='bx bxl-linkedin-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="/">
+                                <i class='bx bxl-whatsapp-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="">
+                                <i class='bx bxl-flickr-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="">
+                                <i class='bx bxl-medium-square bx-md' ></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h3 class="h4 pb-lg-3 text-light light-300">Our Company</h3>
+                        <ul class="list-unstyled text-light light-300">
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="index.html">Home</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="about.html">About Us</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="work.html">Work</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="pricing.html">Price</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Our Works</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Branding</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Business</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Marketing</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Social Media</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Digital Solution</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Graphic</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">For Client</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" href="tel:010-020-0340">010-020-0340</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:info@company.com">info@company.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w-100  py-3" style="background-color: #0088cc">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-start text-center text-light light-300">
+                            © Copyright 2021 | Tosam online. All Rights Reserved.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-end text-center text-light light-300">
+                            Designed by <a rel="sponsored" class="text-decoration-none text-light" href="" target="_blank"><strong>Larry Austin</strong></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer --> 
+        
+        
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/slick.js"></script> 
+    <script src="assets/js/lightbox.js"></script> 
+    <script src="assets/js/isotope.js"></script> 
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+
+        $(function() {
+            var selectedClass = "";
+            $("p").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("."+selectedClass).fadeOut();
+            setTimeout(function() {
+              $("."+selectedClass).fadeIn();
+              $("#portfolio").fadeTo(50, 1);
+            }, 500);
+                
+            });
+        });
+
+    </script>
+
+  </body>
+</html>
